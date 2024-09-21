@@ -1,0 +1,58 @@
+POST http://localhost:3000/api/users
+Content-Type: application/json
+Content-Length: 85
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "fullName": "Valentin",
+  "email": "VnUeh@example.com",
+  "password": "kckcccc"
+}
+
+<> 2024-09-20T152746.200.json
+
+###
+
+POST http://localhost:3000/api/users
+Content-Type: application/json
+Content-Length: 73
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "fullName": "John Doe",
+  "email": "j@j.com",
+  "password": "11111"
+}
+
+<> 2024-09-20T152538.200.json
+
+###
+
+POST http://localhost:3000/api/users
+Content-Type: application/json
+Content-Length: 73
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "fullName": "John Doe",
+  "email": "j@j.com",
+  "password": "11111"
+}
+
+###
+
+GET http://localhost:3000/api/users
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-09-20T151113.200.json
+
+###
+
