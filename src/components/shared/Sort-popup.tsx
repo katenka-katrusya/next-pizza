@@ -1,5 +1,6 @@
-import { cn } from '@/lib/utils'
+import { cn } from '@/src/lib/utils'
 import { ArrowUpDown } from 'lucide-react'
+import React from 'react'
 
 interface Props {
   className?: string

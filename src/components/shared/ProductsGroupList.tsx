@@ -2,9 +2,9 @@
 
 import React from 'react'
 import { useIntersection } from 'react-use'
-import { ProductCard, Title } from '@/components/shared'
-import { cn } from '@/lib/utils'
-import { useCategoryStore } from '../../../store/category'
+import { ProductCard, Title } from '@/src/components/shared'
+import { cn } from '@/src/lib/utils'
+import { useCategoryStore } from '@/store/category'
 
 interface Props {
   title: string,

@@ -1,6 +1,6 @@
 import React from 'react'
-import { Title, FilterCheckbox, RangeSlider, CheckboxFiltersGroup } from '@/components/shared'
-import { Input } from '@/components/ui'
+import { Title, FilterCheckbox, RangeSlider, CheckboxFiltersGroup } from '@/src/components/shared'
+import { Input } from '@/src/components/ui'
 
 interface Props {
   className?: string

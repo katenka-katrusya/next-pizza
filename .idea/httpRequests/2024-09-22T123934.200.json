@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "fullName": "User1",
+    "email": "user1@user1.com",
+    "password": "$2b$10$xHqbnfDZticxHgzUOtmcP.sWWBfs3jamyRqi.PnfVwIxPCBEBbNYW",
+    "role": "USER",
+    "verified": "2024-09-22T09:20:20.541Z",
+    "provider": null,
+    "providerId": null,
+    "createdAt": "2024-09-22T09:20:20.649Z",
+    "updatedAt": "2024-09-22T09:20:20.649Z"
+  },
+  {
+    "id": 2,
+    "fullName": "Admin Test",
+    "email": "admin@admin.com",
+    "password": "$2b$10$cHsxs0dIkrINcld8.v1S7eeZUhjPPveSMMWm2aD9MuAXctcDuU.Wu",
+    "role": "ADMIN",
+    "verified": "2024-09-22T09:20:20.645Z",
+    "provider": null,
+    "providerId": null,
+    "createdAt": "2024-09-22T09:20:20.649Z",
+    "updatedAt": "2024-09-22T09:20:20.649Z"
+  }
+]

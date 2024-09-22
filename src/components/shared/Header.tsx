@@ -1,8 +1,8 @@
-import { cn } from '@/lib/utils'
+import { cn } from '@/src/lib/utils'
 import React from 'react'
-import { Container } from '@/components/shared/Container'
+import { Container } from '@/src/components/shared/Container'
 import Image from 'next/image'
-import { Button } from '@/components/ui'
+import { Button } from '@/src/components/ui'
 import { ArrowRight, ShoppingCart, User } from 'lucide-react'
 
 interface Props {

@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
-import { Title } from '@/components/shared'
-import { Button } from '@/components/ui'
+import { Title } from '@/src/components/shared'
+import { Button } from '@/src/components/ui'
 import { Plus } from 'lucide-react'
 
 interface Props {

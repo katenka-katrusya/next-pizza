@@ -1,7 +1,7 @@
-import { cn } from '@/lib/utils'
-import { Categories } from '@/components/shared/Categories'
-import { SortPopup } from '@/components/shared/Sort-popup'
-import { Container } from '@/components/shared/Container'
+import { cn } from '@/src/lib/utils'
+import { Categories } from '@/src/components/shared/Categories'
+import { SortPopup } from '@/src/components/shared/Sort-popup'
+import { Container } from '@/src/components/shared/Container'
 import React from 'react'
 
 interface Props {

@@ -1,8 +1,8 @@
 'use client'
 
 import React from 'react'
-import { FilterCheckbox, FilterCheckboxProps } from '@/components/shared/FilterCheckbox'
-import { Input } from '@/components/ui'
+import { FilterCheckbox, FilterCheckboxProps } from '@/src/components/shared/FilterCheckbox'
+import { Input } from '@/src/components/ui'
 
 type Item = FilterCheckboxProps
 

@@ -1,8 +1,8 @@
 'use client'
 
-import { cn } from '@/lib/utils'
+import { cn } from '@/src/lib/utils'
 import React from 'react'
-import { useCategoryStore } from '../../../store/category'
+import { useCategoryStore } from '@/store/category'
 
 interface Props {
   className?: string
