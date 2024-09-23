@@ -1,6 +1,6 @@
 import { cn } from '@/src/lib/utils'
 import { Categories } from '@/src/components/shared/Categories'
-import { SortPopup } from '@/src/components/shared/Sort-popup'
+import { SortPopup } from '@/src/components/shared/SortPopup'
 import { Container } from '@/src/components/shared/Container'
 import React from 'react'
 
