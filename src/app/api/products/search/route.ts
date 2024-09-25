@@ -17,7 +17,7 @@ export async function GET(req: NextRequest) {
   const allProducts = await prisma.product.findMany();
   const filteredProducts = allProducts.filter(product =>
     product.name.toLowerCase().includes(query.toLowerCase())
-  );
+  ).slice(0, 5);
 
   return NextResponse.json(filteredProducts);
 }
